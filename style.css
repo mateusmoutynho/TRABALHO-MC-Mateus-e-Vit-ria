@@ -1,0 +1,152 @@
+body {
+
+    font-family: Arial, sans-serif;
+
+}
+
+ul {
+    text-align: left;
+}
+
+header {    
+    background-color:rgb(32, 32, 32);
+    padding: 5px 30px 5px 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    box-sizing: border-box;
+}
+
+header nav ul{
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header a {
+    color: white;
+}
+
+.content {
+
+    margin: 20px 40px 20px 40px;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+}
+
+img {
+    max-width: 540px;
+    width: 100%;
+}
+
+.pag {
+
+    margin: 10px 40px 10px 40px;
+    text-align: center;
+    padding: 10px 10 px;
+    border: 0.5px solid #bbb ;
+}
+
+.content{
+    margin: 10px 40px 10px 40px;
+    text-align: center;
+    padding: 10px 10px;
+    border: 0.5px solid #bbb;
+}
+
+.content2{
+    margin: 8px 10px 8px 10px;
+    text-align: center;
+    padding: 5px 5px;
+    border: 0.2px solid #bbb;
+}
+
+.hamburguinho{
+    font-size: 35px;
+    color: white;
+    display: none;
+}
+
+.parag{
+
+    margin: 20px 10px 20px 10px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+
+.saude{
+    margin: 8px 10px 8px 10px;
+    text-align: center;
+    padding: 5px 5px;
+    border: 0.2px solid #bbb;
+}
+
+.contsaude{
+    margin: 20px 10px 20px 10px;
+    text-align: justify;
+    padding-top: 5px;
+}
+
+
+
+figcaption{
+
+    font-size: 0.9em;
+}
+
+
+
+h1{
+    color: white;
+}
+ 
+h2 {
+    color:black;
+}
+
+a  {
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black
+}
+
+a:hover { 
+
+    color: blue;
+
+}
+
+.pag h2:hover {
+
+    color:blue;
+
+}
+
+.content h2:hover {
+
+    color:blue
+}
+
+footer {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+@media screen and (max-width: 615px) {
+
+    header nav{
+        display: none;
+    }
+
+}
